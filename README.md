@@ -1,4 +1,4 @@
-# GC_24_ARDUGEM_38.2
+# GC_24_ARDUGEM_38
 ## Minesweeper Game
 This project implements the classic Minesweeper game using an Arduino and a TFT display. The game allows players to uncover tiles on a grid while avoiding hidden mines.
 
