@@ -59,3 +59,7 @@ This project implements the classic Minesweeper game using an Arduino and a TFT 
 ### Notes
 - You can customize the game parameters such as grid size and number of mines in the code according to your preferences by changing the cell size but keep in mind the computational power of Arduino UNO.
 
+<video width="640" height="360" controls>
+  <source src="Minesweeper.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
