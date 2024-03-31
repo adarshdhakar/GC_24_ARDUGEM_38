@@ -19,35 +19,35 @@ This project implements the classic Minesweeper game using an Arduino and a TFT 
 
 ### Usage
 1. Upon starting the game, the main menu will be displayed on the TFT screen.<br>
- <img src="image/mainmenu.jpg" alt="MainMenu" height="350" width="250">
+ <img src="image/mainmenu.jpg" alt="MainMenu" height="350" width="275">
 2. Press the "B" button in the joystick module to begin the game or Press the "D" button to go to the rules page.<br>
 3. Use the joystick to move the cursor on the grid. Press “A” button to dig or uncover the hidden cell or press “C” button to flag the cell.
   <div height="350" width = "750">
   <img src="image/grid.png" alt="Grid" height="350" width="250"><img src="image/open.png" alt="Open" height="350" width="250"><img src="image/flag.png" alt="Flag" height="350" width="250"> 
   </div>
-5. Avoid uncovering tiles containing mines.<br>
-6. Use flags to mark potential mine locations.<br>
-7. Win the game by uncovering all non-mine tiles, or lose by uncovering a mine.<br>
+4. Avoid uncovering tiles containing mines.<br>
+5. Use flags to mark potential mine locations.<br>
+6. Win the game by uncovering all non-mine tiles, or lose by uncovering a mine.<br>
  <div height="350" width = "500">
   <img src="image/lose.png" alt="Lose" height="350" width="250"><img src="image/win.png" alt="Win" height="350" width="250"> 
   </div>
-8. Your score will be displayed at the end of the game.<br>
-9. Now again Press button “B” to go to Main Menu to play again.<br>
+7. Your score will be displayed at the end of the game.<br>
+8. Now again Press button “B” to go to Main Menu to play again.<br>
 
 ### Features
-- Main menu with options to start the game or view rules.<br>
- <img src="image/mainmenu.jpg" alt="MainMenu" height="350" width="250">
-- Rules section explaining the game mechanics.<br>
+1. Main menu with options to start the game or view rules.<br>
+ <img src="image/mainmenu.jpg" alt="MainMenu" height="350" width="275">
+2. Rules section explaining the game mechanics.<br>
  <div height="350" width = "750">
   <img src="image/rule1.png" alt="Rule" height="350" width="250"><img src="image/rule2.png" alt="Rule" height="350" width="250"><img src="image/rule3.png" alt="Rule" height="350" width="250"> 
   </div>
-- Dynamic grid drawing on the TFT screen.<br>
+3. Dynamic grid drawing on the TFT screen.<br>
 <img src="image/grid.png" alt="Grid" height="350" width="250">
-- Bomb and flag graphics for visual representation.<br>
+4. Bomb and flag graphics for visual representation.<br>
  <div height="350" width = "500">
   <img src="image/bomb.png" alt="Bomb" height="350" width="250"><img src="image/flag.png" alt="Flag" height="350" width="250"> 
   </div>
-- Endgame screen displaying win/loss status and score and option to return to the main menu after finishing a game.<br>
+5. Endgame screen displaying win/loss status and score and option to return to the main menu after finishing a game.<br>
  	 <div height="350" width = "500">
   <img src="image/lose.png" alt="Lose" height="350" width="250"><img src="image/win.png" alt="Win" height="350" width="250"> 
   </div>
