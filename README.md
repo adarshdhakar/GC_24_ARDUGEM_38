@@ -22,13 +22,15 @@ This project implements the classic Minesweeper game using an Arduino and a TFT 
  <img src="image/mainmenu.png" alt="MainMenu" height="400" width="200">
 2. Press the "B" button in the joystick module to begin the game or Press the "D" button to go to the rules page.<br>
 3. Use the joystick to move the cursor on the grid. Press “A” button to dig or uncover the hidden cell or press “C” button to flag the cell.
+  <div height="400" width = "600">
   <img src="image/grid.png" alt="Grid" height="400" width="200"><img src="image/mainmenu.png" alt="MainMenu" height="200" width="400">       ![Flag](image/flag.png)
-4. Avoid uncovering tiles containing mines.
-5. Use flags to mark potential mine locations.
-6. Win the game by uncovering all non-mine tiles, or lose by uncovering a mine.
+  </div>
+5. Avoid uncovering tiles containing mines.
+6. Use flags to mark potential mine locations.
+7. Win the game by uncovering all non-mine tiles, or lose by uncovering a mine.
  ![Game_Lose](image/lose.png)    ![Game_Win](image/win.png)                	
-7. Your score will be displayed at the end of the game.
-8. Now again Press button “B” to go to Main Menu to play again.
+8. Your score will be displayed at the end of the game.
+9. Now again Press button “B” to go to Main Menu to play again.
 
 ### Features
 - Main menu with options to start the game or view rules.
